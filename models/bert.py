@@ -2,7 +2,7 @@ from __future__ import absolute_import, division, print_function
 
 import torch
 from torch import nn
-from torchcrf import CRF
+from TorchCRF import CRF
 from transformers import (BertForTokenClassification)
 import logging
 

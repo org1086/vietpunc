@@ -4,7 +4,7 @@ import logging
 
 import torch
 from torch import nn
-from torchcrf import CRF
+from TorchCRF import CRF
 from transformers import (XLMRobertaForTokenClassification)
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',

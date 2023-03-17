@@ -3,7 +3,7 @@ from __future__ import absolute_import, division, print_function
 import torch
 from torch import nn
 from transformers import (ElectraForTokenClassification)
-from torchcrf import CRF
+from TorchCRF import CRF
 
 from punc_dataset import *
 
