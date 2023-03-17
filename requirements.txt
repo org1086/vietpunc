@@ -1,2 +1,9 @@
 transformers==4.16.2
 sentencepiece
+torch==1.10.0
+torchcrf
+sklearn
+scikit-learn 
+scipy 
+matplotlib
+pandas
