@@ -1,0 +1,1 @@
+python3 run_train_punc.py --model_name_or_path=bert-base-multilingual-cased  --model_arch lstm_crf  --model_type bert  --data_dir=data/News  --output_dir=outputs  --task_name=punctuation_prediction  --max_seq_length=190  --do_train  --do_eval   --eval_on=test  --train_batch_size=32
